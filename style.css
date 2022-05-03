@@ -58,7 +58,7 @@ span{
     padding-bottom: 20px;
 }
 
-button{
+input{
     background-color: hsl(25, 97%, 53%);
     padding :20px;
     margin: 4px;
@@ -73,5 +73,18 @@ button{
     text-align-last: center;
     font-size: 16px;
     cursor: pointer;
+    
 }
 
+.level2{ 
+    margin: 25px 0 0px;
+    font-size: 0;
+    white-space: nowrap;
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    overflow: hidden;
+    position: relative;
+    background-size: contain;
+    
+}
